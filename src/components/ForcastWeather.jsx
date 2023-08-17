@@ -1,5 +1,5 @@
 import React, {useState} from 'react';
-import { Accordion, AccordionItem, AccordionItemButton, AccordionItemHeading, AccordionItemPanel } from 'react-accessible-accordion';
+import { Accordion, AccordionItem, AccordionItemButton, AccordionItemHeading } from 'react-accessible-accordion';
 import '../stylesheets/WeatherData.css'
 import '../stylesheets/ForecastWeather.css'
 
