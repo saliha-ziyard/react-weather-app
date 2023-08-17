@@ -30,7 +30,7 @@ const ForcastWeather = ({ data }) => {
 
   return (
     <div className='forcastWeather'>
-      <h2 className='title'>7-Day Weather Forecast</h2>
+      <h2 className='title'>This weeks Weather Forecast</h2>
      <div className='card-1'>
      <Accordion allowZeroExpanded className='card'>
         {data.list.splice(0,7).map((item, idx) => (
@@ -48,11 +48,12 @@ const ForcastWeather = ({ data }) => {
                 </div>
               </AccordionItemButton>
             </AccordionItemHeading>
-            <AccordionItemPanel></AccordionItemPanel>
           </AccordionItem>
         ))}
       </Accordion>
      </div>
+
+
 
       {/* <button onClick={toggleView}>View More</button> */}
 

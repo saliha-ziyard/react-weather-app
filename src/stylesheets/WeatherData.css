@@ -24,12 +24,19 @@
 .icon{
     width: 100px;
 }
+.weather-search{
+    padding-left: 40px;
+    align-items: center;
+    justify-content: center;
+}
 .weather-search input{
     text-align: left;
     border-radius: 10px;
     font-size: 16px;
-    border: none;
+    /* border: none; */
     outline: none;
+    width: 250px;
+    height: 20px;
     padding: 3px;
     margin: 4px;
     padding-left: 10px;
@@ -38,12 +45,16 @@
     background-color: rgb(232, 232, 231);
     color: black;
     font-family: var(--font-family);
+    font-size: 20px;
 }
 .weather-date-today{
     padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
 }
 .weather-current{
     display: flex;
+    text-align: center;
     flex-direction: row;
     padding-left: 20px;
     text-align: left;
@@ -52,9 +63,11 @@
     background-size: cover;
     background-position: center;
     border-radius: 10px;
+    margin-left: 100px;
+    margin-bottom: 20px;
 }
 .weather-search-result{
-    margin-left: 40px;
+    margin-left: 60px;
 }
 .city-weather{
     display: flex;

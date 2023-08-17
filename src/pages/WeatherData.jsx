@@ -65,7 +65,6 @@ function WeatherData() {
     <div className='weather-search-result'>
     {weatherData && (
         <div>
-        {/* <p>{new Date(weatherData.dt * 1000).toLocaleString()}</p> */}
         <h2>Weather in {weatherData.name}, {weatherData.sys.country}</h2>
         <p>Temperature: {Math.round(weatherData.main.temp)}°C</p>
         <p>Humidity: {weatherData.main.humidity}°C </p>
